@@ -1,0 +1,14 @@
+Package: quasiperiodic
+Title: Preprocess time series, digital signals, with almost cyclic patterns
+Version: 0.0.0.9000
+Authors@R: person("Tomasz", "Melcer", email = "first.last@example.com", role = c("aut", "cre"))
+Description: Provides functions for dealing with time series, or digital
+  signals, that may look periodic, but where the cycles turn out to be of
+  unequal length, noisy, etc.
+Depends: R (>= 3.4.2)
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+LinkingTo: Rcpp
+Imports: Rcpp
+RoxygenNote: 6.0.1
